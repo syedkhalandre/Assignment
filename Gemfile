@@ -46,7 +46,7 @@ group :development do
 end
 
 group :development do
-	gem 'mysql2', '>= 0.3.13', '< 0.5'
+	#gem 'mysql2', '>= 0.3.13', '< 0.5'
 end
 
 group :production do  
