@@ -17,7 +17,7 @@
   pool: 5
   username: Cms
   password: exa10sept
-  #host: localhost
+  host: localhost
 
 
  production:
@@ -27,7 +27,7 @@
   pool: 5
   username: Cms
   password: exa10sept
-  #host: localhost
+  host: localhost
 
   test:
   adapter: mysql2
@@ -36,7 +36,7 @@
   pool: 5
   username: Cms
   password: exa10sept
-  #host: localhost
+  host: localhost
  # <<: *default
   
 
