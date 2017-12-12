@@ -20,6 +20,23 @@
   socket: /var/run/mysqld/mysqld.sock
 
 
+ production:
+  adapter: mysql2
+  encoding: utf8
+  database: Cms_development
+  pool: 5
+  username: Cms
+  password: exa10sept
+  socket: /var/run/mysqld/mysqld.sock
+
+  test:
+  adapter: mysql2
+  encoding: utf8
+  database: Cms_development
+  pool: 5
+  username: Cms
+  password: exa10sept
+  socket: /var/run/mysqld/mysqld.sock
  # <<: *default
   
 

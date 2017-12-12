@@ -45,13 +45,12 @@ group :development do
   gem 'spring'
 end
 
-
 # group :development do
 # 	gem 'mysql2', '>= 0.3.13', '< 0.5'
 # end
 
 group :production do  
-  gem 'pg'
+  #gem 'pg'
   gem 'rails_12factor'
 
 end
