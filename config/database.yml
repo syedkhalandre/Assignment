@@ -17,7 +17,7 @@
   pool: 5
   username: Cms
   password: exa10sept
-  socket: /var/run/mysqld/mysqld.sock
+  host: localhost
 
 
  production:
