@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>CMS</title>
+<style>
+	span.status{ display: block; width:10px; height:10px; margin: 0.25em auto; padding: 0px; border: 
+		1px solid #00000; }
+	span.status.true {background: green; color: green;}	
+	span.status.false {background: red; color: red;}
+
+</style>
+</head>
+<div id="header">
+ <h2>CMS Application</h2>
+</div>
+<div id="main">
+<% if !flash[:notice].blank? %>
+  <div class="notice">
+    <%= flash[:notice] %>
+  </div>
+<% end %>
+<div id="content">
+<%= yield %>
+</div>
+</div><br><br>
+<div id="footer">
+	<strong id="copyright">Created By Syed</strong>
+	</div>
+</html>
